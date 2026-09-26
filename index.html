@@ -1,40 +1,122 @@
-<!DOCTYPE html>
+=<!DOCTYPE html>
 <html>
-  <head>
-    <title>my website></title>
+<head>
+    <title>My Computer Learning Website</title>
+
     <style>
-      body {
-        text-align: center;
-        font-family: sans-serif;
-        padding:50px;
-        background:#ffe6f0
-      }
-      h1 {color:=#d63384
-         }
-      p {
-        color: #333;
-        font-size: 18px;
-      .box {
-         background: white;
-        padding: 20px;
-        border -radius: 15px;
-          box-shadow: 0px,4px,10px, gray;
-      }
-       button {
-         background:#d63384;
-         color: white;
-         padding: 10px 20px;
-         border-radius:20px
-         cursor:pointer;
-       }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f6ff;
+        }
+
+        header {
+            background-color: #4a69bd;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #1e3799;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        h2 {
+            color: #4a69bd;
+        }
+
+        button {
+            background-color: #4a69bd;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #1e3799;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
     </style>
-  </head>
-  <body>
-  <div class=''box''>
-    <h1>Asslam-o-alikum!🥰</h1>
-    <p>My first website</p>
-    <p>Excited to share my first website!</p>
-    <button onclick=''alert('thank you for visiting my website!🥰')''>welcome</button>
-  </div>
-  </body>
+</head>
+
+<body>
+
+    <header>
+        <h1>💻 Computer Learning</h1>
+        <p>Learn Computer Skills Easily</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card" id="home">
+            <h2>Welcome!</h2>
+            <p>
+                Welcome to my Computer Learning Website.
+                Here you can learn basic computer skills
+                in an easy and simple way.
+            </p>
+
+            <button onclick="alert('Welcome to Computer Learning!')">
+                Click Me
+            </button>
+        </div>
+
+        <div class="card" id="courses">
+            <h2>📚 Our Courses</h2>
+
+            <p>🖥️ Basic Computer</p>
+            <p>🌐 HTML & CSS</p>
+            <p>📊 MS Excel</p>
+            <p>📽️ MS PowerPoint</p>
+            <p>📝 MS Word</p>
+        </div>
+
+        <div class="card" id="about">
+            <h2>About This Website</h2>
+            <p>
+                This website is created for students who want
+                to learn computer skills easily.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 My Computer Learning Website</p>
+    </footer>
+
+</body>
 </html>
